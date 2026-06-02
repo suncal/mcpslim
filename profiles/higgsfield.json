@@ -1,0 +1,13 @@
+{
+  "_comment": "Per-tool compression modes for the Higgsfield MCP server. List/browse tools are safe to truncate aggressively; anything that returns a payload you consume in full stays safe (lossless-leaning).",
+  "tools": {
+    "show_generations": "aggressive",
+    "show_medias": "aggressive",
+    "transactions": "aggressive",
+    "models_explore": "aggressive",
+    "default": "safe"
+  },
+  "options": {
+    "keepArrayKeys": ["items"]
+  }
+}
