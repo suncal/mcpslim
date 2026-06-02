@@ -43,7 +43,18 @@ Claude Code  ──JSON-RPC──▶  mcpslim-proxy  ──JSON-RPC──▶  re
 ## Install
 
 ```bash
-npm install -g mcpslim         # or: git clone && npm link
+git clone https://github.com/suncal/mcpslim.git
+cd mcpslim
+npm link        # exposes `mcpslim-proxy` and `mcpslim` on your PATH
+```
+
+> Not yet on the npm registry — install from source for now. `npm i -g mcpslim` is coming once it's published.
+
+Quick sanity check (compress a captured payload):
+
+```bash
+mcpslim compress some-tool-output.json            # safe mode
+mcpslim compress some-tool-output.json --aggressive
 ```
 
 ## Use — wrap an existing MCP server
