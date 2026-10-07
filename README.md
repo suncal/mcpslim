@@ -1,5 +1,9 @@
 # mcpslim
 
+[![License: Apache--2.0](https://img.shields.io/badge/license-Apache----2.0-blue.svg)](LICENSE) [![Stars](https://img.shields.io/github/stars/suncal/mcpslim?style=social)](https://github.com/suncal/mcpslim/stargazers)
+
+![screenshot](docs/hero.png)
+
 **Cut Claude Code / Cursor token usage on the outputs other tools can't touch.**
 
 [RTK](https://github.com/rtk-ai/rtk) compresses **bash command output** (`git status`, `npm test`, `cat`). That's great — but it can't see two of the biggest token drains in modern agent workflows:
@@ -116,3 +120,9 @@ That's it. The server behaves identically; outputs are just smaller.
 ## License
 
 Apache-2.0. Independent project; concept inspired by RTK (also Apache-2.0). No RTK code is used.
+
+---
+
+**If this is useful to you, a ⭐ on the repo helps other people find it.** Issues and pull requests are welcome.
+
+Built by [Priyankar "Sunny" Chakraborty](https://github.com/suncal) · [everbuiltstudio.com](https://everbuiltstudio.com)
